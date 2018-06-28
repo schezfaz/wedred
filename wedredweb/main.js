@@ -5,10 +5,10 @@ $(document).ready(function(){
          $(".book").css('box-shadow','inset 20px 0 50px rgba(0,0,0,0.5), 0 10px 100px rgba(0,0,0,0.5)');
          $(".book").css('margin-left', '+150px').delay(3000);
          $(".book").css("height","100%").css("width","100%");
-         $(".book").css("transition","3s");
-         $(".book").delay(1200).css("visibility","hidden");
+         $(".book ").css("transition","3s");
+         $(".book").css("visibility","hidden") ;
         //  $(".close").css('visibility','visible');
-        $(".everything").delay(2000).css('visibility','visible').css('transition','4s');
+        // $(".everything").delay(6000).css('visibility','visible').css('transition','4s');
     });
 
     $(window).bind('scroll',function(){ //for sticky navbar on scroll
