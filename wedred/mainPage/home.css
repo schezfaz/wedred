@@ -8,9 +8,10 @@ body,html{
 .mainJ{
     /* background: linear-gradient(to right top, black 0%, grey 30%); */
     /* background: url('background.jpg'); */
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     height: 100%;
     width: 100%;
     text-align: center;
@@ -261,19 +262,20 @@ navbar {
 
 .ourInformation{
     width: 100%;
-    padding: 20px;
+
 }
 
-.contactUs{
+/* .contactUs{
     width: 400px;
-    float: left;
     text-align: center;
-}
+} */
 
 #mapLocation{
     width: 100%;
     height: 100%;
 }
+
+
 
 /* .socialmedia{
     float:left;
@@ -498,3 +500,56 @@ footer{
 
 
 
+
+
+/*map*/
+
+.padding-0{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*cards*/
+.screen8{
+    z-index: -1000;
+}
+.card{
+    width: 150px;
+    height: 300px;
+    display: inline-block;
+}
+
+.card:hover{
+    transform: scale(1.3);
+}
+
+.allFive{
+    display: inline-block;
+    margin: 30px;
+}
+
+.one{
+    background-color: black;
+}
+
+.two{
+    background-color: grey;
+}
+
+.three{
+    background-color: aqua;
+}
+.mySlides{
+    z-index: -1000;
+}
+.four{
+    background-color: aquamarine;
+}
+
+.five{
+    background-color: blue;
+}
+
+.screen8{
+    background-color: wheat;
+}
