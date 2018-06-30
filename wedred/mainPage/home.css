@@ -449,6 +449,52 @@ footer{
 } */
 
 .screen6{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 10% auto;
+    background: whitesmoke;
+    height: 100vh;
 }
+
+.vid{
+    width: 280px;
+    height: 210px;
+}
+.vid-container {
+  display: block;
+  text-align: center;
+  transition: all 0.28s ease-out;
+  float: left;
+  margin: 5px;
+  /* position:relative; */
+  border: none;
+}
+
+.vid-container::after {
+  content: " ";
+  width:100%;
+  height:100%;
+  /* position:absolute; */
+  top:0;
+  left:0;
+  text-align: center;
+  transition: all 0.5s ease-out;
+  pointer-events: none;
+}
+
+
+.vid-container:hover {
+  transform: scale(1.4,1.4);
+}
+
+.vid-container:hover::after {
+  opacity:1;
+}
+
+.screen6 .container{
+    width: 100%;
+    height: auto;
+   text-align: center;
+}
+
+
+
