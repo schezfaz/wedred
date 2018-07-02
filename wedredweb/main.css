@@ -82,7 +82,7 @@ section{
 /* main page stuff */
 
 .everything{
-    visibility: hidden;
+    display: none;
 }
 
 /*logo and video section wedredLogo FIRST SECTION

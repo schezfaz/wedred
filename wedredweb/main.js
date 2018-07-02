@@ -1,14 +1,14 @@
 $(document).ready(function(){
     $(".open").click(function(){  //opening of the book
+        setTimeout(function() { $(".everything").css({'display':'block'});}, 3000);
         $(".cover").css('transform','rotateY(-178deg)');
         // $(".container").css('transform','rotateY(-160deg)');
          $(".book").css('box-shadow','inset 20px 0 50px rgba(0,0,0,0.5), 0 10px 100px rgba(0,0,0,0.5)');
-         $(".book").css('margin-left', '+150px').delay(3000);
+        //  $(".book").css('margin-left', '+150px');
          $(".book").css("height","100%").css("width","100%");
          $(".book ").css("transition","3s");
          $(".book").css("visibility","hidden") ;
         //  $(".close").css('visibility','visible');
-        // $(".everything").delay(6000).css('visibility','visible').css('transition','4s');
     });
 
     $(window).bind('scroll',function(){ //for sticky navbar on scroll
