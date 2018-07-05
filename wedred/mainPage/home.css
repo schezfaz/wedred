@@ -58,7 +58,7 @@ body,html{
     font-weight: bold;
 }
 
-.navigationBar {
+nav {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -71,17 +71,17 @@ body,html{
 }
 
 
-.navigationBar li {
+nav li {
 	display: inline-block;
 	padding: 24px 10px;
 }
 
-.navigationBar li a {
+nav li a {
 	color: #757575;
 	text-transform: uppercase;
 }
 
-.navigationBar li a:hover{
+nav li a:hover{
     color:rgba(252, 106, 106);
     text-decoration: none;
 }
@@ -560,7 +560,7 @@ footer{
 
 
 /* Fading animation */
-.fade {
+/* .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
@@ -578,9 +578,9 @@ footer{
   }
   
   /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
+  /* @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
-  }
+  } */ 
 
 .navPagination{
     margin-left: 42%;
