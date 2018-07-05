@@ -22,5 +22,5 @@ $(function(){
  });
 
 
- //slideshow for photomoments
- 
+ // photomoments
+ baguetteBox.run('.tz-gallery');
