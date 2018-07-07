@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+            <link rel="stylesheet" href="../lightbox2-master/dist/css/lightbox.min.css">
+            <script src="../lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
         <style>
-             .tz-gallery{
+            body{
                 padding: 0;
             }
 
             .imgs{
-                column-count: 5;
+                column-count: 3;
+                padding: 0;
             }
 
             .card{
                 height: auto;
                 width: 100%;
+                padding: 5px;
+            }
+
+            a{
+                padding: 0;
             }
             
             
@@ -27,65 +31,58 @@
     <body>
         <section class="imgs">
             <div class="tz-gallery">
-                    <a href="img1.jpg">
-                        <img src="img1.jpg" alt="Park" class="card">
+                    <a href="img1.jpg" data-lightbox="gallery" >
+                        <img src="img1.jpg" class="card">
                     </a>
 
-                    <a class="lightbox" href="logo.jpg">
+                    <a href="img15.jpg" data-lightbox="gallery" >
+                        <img src="img15.jpg"  class="card">
+                    </a>
+
+                    <a href="img1.jpg" data-lightbox="gallery">
+                        <img src="img1.jpg"  class="card">
+                    </a>
+
+                    <a href="img8.jpg" data-lightbox="gallery">
+                        <img src="img8.jpg"  class="card">
+                    </a>
+
+                    <a  href="img1.jpg"data-lightbox="gallery">
+                        <img src="img1.jpg"  class="card">
+                    </a>
+
+                    <a  href="img8.jpg" data-lightbox="gallery">
+                        <img src="img8.jpg"  class="card">
+                    </a>
+
+                    <a href="img15.jpg">
                         <img src="img15.jpg" alt="Park" class="card">
                     </a>
 
-                    <a class="lightbox" href="img1.jpg">
-                        <img src="img1.jpg" alt="Park" class="card">
+                    <a  href="img8.jpg"data-lightbox="gallery">
+                        <img src="img8.jpg" class="card">
                     </a>
 
-                    <a class="lightbox" href="img8.jpg">
-                        <img src="img8.jpg" alt="Park" class="card">
+                    <a href="img1.jpg" data-lightbox="gallery">
+                        <img src="img1.jpg"  class="card">
                     </a>
 
-                    <a class="lightbox" href="img1.jpg">
-                        <img src="img1.jpg" alt="Park" class="card">
+                    <a href="img8.jpg" data-lightbox="gallery">
+                        <img src="img8.jpg" class="card">
                     </a>
 
-                    <a class="lightbox" href="img8.jpg">
-                        <img src="img8.jpg" alt="Park" class="card">
+                    <a  href="img8.jpg" data-lightbox="gallery">
+                        <img src="img8.jpg" class="card">
                     </a>
 
-                    <a class="lightbox" href="img1.jpg">
-                        <img src="img15.jpg" alt="Park" class="card">
-                    </a>
-
-                    <a class="lightbox" href="img1.jpg">
-                        <img src="img8.jpg" alt="Park" class="card">
-                    </a>
-
-                    <a class="lightbox" href="logo.jpg">
-                        <img src="img1.jpg" alt="Park" class="card">
-                    </a>
-
-                    <a class="lightbox" href="img1.jpg">
-                        <img src="img8.jpg" alt="Park" class="card">
-                    </a>
-
-                    <a class="lightbox" href="img8.jpg">
-                        <img src="img8.jpg" alt="Park" class="card">
-                    </a>
-
-                    <a class="lightbox" href="img1.jpg">
-                        <img src="img1.jpg" alt="Park" class="card">
+                    <a href="img1.jpg"data-lightbox="gallery">
+                        <img src="img1.jpg" class="card">
                     </a>
                     
             </div>
 
             
         </section>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-        <script>
-            baguetteBox.run('.tz-gallery');
-        </script>
     </body>
 
 </html>
