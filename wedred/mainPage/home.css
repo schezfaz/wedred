@@ -117,13 +117,22 @@ body,html{
 /******************Homepage css************************/
     /***************About us******************/
     .screen2{
-        margin: 10% auto;
+        /* margin: 10% auto; */
+        background: url('logo.jpg');
     }
     .aboutContainer{ 
         text-align: center;
         padding-bottom: 50px;
         margin-bottom: 130px;
         margin-top: 40px;
+    }
+
+    .aboutPara{
+        color: white;
+    }
+
+    .headingText{
+        color: white;
     }
      .aboutRow{
         margin: 0;
@@ -155,9 +164,11 @@ body,html{
      }
 
     .about{
-        background: white;
+        background: url('background.jpg');
         height: 100vh;
         background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .aboutContainer{
         margin: 0;
@@ -165,16 +176,16 @@ body,html{
     }
 
 
-    /*photomoments screen2 */
+    /*photomoments */
     #photomoments{
-        background: lightgray;
-        width: 100%;
-        height: 100vh;
+        width: 100%; 
+        height: auto;
+        padding: auto 20px;
     }
 
     .Pimgs{
-        column-count: 3;
         padding: 0;
+        column-count: 3;
     }
 
     .card{
@@ -187,8 +198,11 @@ body,html{
     .screen6{
         /* border: 1px solid black; */
         margin: 10% auto;
-        background: whitesmoke;
-        height: 70vh;
+        background: url('background.jpg');
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .screen6 .container{
         width: 100%;
@@ -198,6 +212,11 @@ body,html{
     .h1film{
         text-align: center;
         margin-bottom: 5%;
+        color: white;
+        font-size: 70px;
+    }
+    .page1{
+        margin: 34px;
     }
     .page2,.page3,.page4,.page5{
         display: none;
@@ -220,8 +239,8 @@ body,html{
         width: 100%;
     }
     .vid{
-        width: 280px;
-        height: 210px;
+        width: 420px;
+        height: 400px;
     }
     .vid-container {
       display: block;
@@ -251,6 +270,7 @@ body,html{
 }
     /***************Services******************/
     /***************Travel*******************/
+    
     .travelHeading{
         background-color: white !important;
         text-align: center;
@@ -302,6 +322,7 @@ body,html{
     .screen4{
         padding: 0;
         margin:0;
+        height: 63vh;
     }
 
     .contactUs{
@@ -369,7 +390,7 @@ body,html{
         width: 100%;
         height: 100%;
         position: relative;
-        padding-bottom: 77.4%;
+        /* padding-bottom: 77.4%; */
         height: 0;
         overflow: hidden;
     }
@@ -378,7 +399,7 @@ body,html{
         text-align: center;
         text-align: center;
         font-size: 40px;
-        margin-top: 30px;
+        /* margin-top: 30px; */
         width: 100%;
         height: 40px;
     }
@@ -589,14 +610,14 @@ body,html{
                         .screen8{
                             z-index: -1000;
                         }
-                        .card{
+                        /* .card{
                             width: 150px;
                             height: 300px;
                             display: inline-block;
-                        }
-                        .card:hover{
+                        } */
+                        /* .card:hover{
                             transform: scale(1.3);
-                        }
+                        } */
                         .allFive{
                             display: inline-block;
                             margin: 30px;

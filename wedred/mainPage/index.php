@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <?php
+            include 'connect.php';
+        ?>
         <title>index</title>
         <link rel="stylesheet" href="home.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -132,66 +135,7 @@
                 </div>
             </div>
         </section>
-        <section class="screen6 film" id="film" style="margin-bottom: 5%;">
-            <div class="jumbrotron container">
-                <h1 class="h1film">FILM</h1>
-            </div>
-            <div class="page1">
-                <div class="vid-container">
-                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
-                </div>
-                <div class="vid-container">
-                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
-                </div>
-                <div class="vid-container">
-                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
-                </div>
-            </div>
-            <div class="page2">
-                <div class="vid-container">
-                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
-                </div>
-                <div class="vid-container">
-                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
-                </div>
-                <div class="vid-container">
-                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
-                </div>
-            </div>
-            <div class="page3">
-                <div class="vid-container">
-                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
-                </div>
-                <div class="vid-container">
-                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
-                </div>
-                <div class="vid-container">
-                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
-                </div>
-            </div>
-            <div class="page4">
-                <div class="vid-container">
-                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
-                    </div>
-                <div class="vid-container">
-                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
-                </div>
-                <div class="vid-container">
-                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
-                </div>
-            </div>
-            <div class="page5">
-                <div class="vid-container">
-                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
-                </div>
-                <div class="vid-container">
-                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
-                </div>
-                <div class="vid-container">
-                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
-                </div>
-            </div>
-        </section>
+        
         <section class="screen5 travel" id="travel tra">
             <div class="jumbotron travelHeading container">TRAVEL
             </div>
@@ -263,22 +207,87 @@
                 </div>
             </div>
         </section>
+
+        <section class="screen6 film" id="film" style="margin-bottom: 5%;">
+            <div class="jumbrotron container">
+                <h1 class="h1film">FILM</h1>
+            </div>
+            <div class="page1">
+                <div class="vid-container">
+                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+                </div>
+                <div class="vid-container">
+                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+                </div>
+                <div class="vid-container">
+                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+                </div>
+            </div>
+            <div class="page2">
+                <div class="vid-container">
+                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+                </div>
+                <div class="vid-container">
+                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+                </div>
+                <div class="vid-container">
+                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+                </div>
+            </div>
+            <div class="page3">
+                <div class="vid-container">
+                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+                </div>
+                <div class="vid-container">
+                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+                </div>
+                <div class="vid-container">
+                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+                </div>
+            </div>
+            <div class="page4">
+                <div class="vid-container">
+                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+                    </div>
+                <div class="vid-container">
+                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+                </div>
+                <div class="vid-container">
+                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+                </div>
+            </div>
+            <div class="page5">
+                <div class="vid-container">
+                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+                </div>
+                <div class="vid-container">
+                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+                </div>
+                <div class="vid-container">
+                    <iframe class="vid"  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+                </div>
+            </div>
+        </section>
         <section class="screen4 contact" id="contact">
-            <div class="jumbotron contactHeading container">CONTACT</div>
+            
             <div class="col-lg-6 padding-0 ourInformation">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.481253806456!2d72.81407831426674!3d19.130400155233037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b61cae6691db%3A0x9a77074afcf3490c!2sCat+Caf%C3%A9+Studio!5e0!3m2!1sen!2sin!4v1530798564428" width="600" height="450" frameborder="0" class="map-google" style="border:0" allowfullscreen></iframe> 
             </div>
             <div class="col-lg-6 padding-0">
                 <div class='contactUs'>
+                    <!-- <div class="jumbotron contactHeading container">CONTACT</div> -->
                     <div class="contactBoxAndHeading">
                         <h2>GET IN TOUCH</h2>
                         <div class="contactBox">
-                            <input class="ip" type="text" placeholder="NAME"> <br>
-                            <input class="ip" type="email" placeholder="E-Mail"> <br>
-                            <input class="ip" type="tel" placeholder="Phone"> <br>
-                            <input class="ip" type="text" placeholder="Message"> <br>
-                            <button id="sendButton">SEND</button>
-                        </div>
+                        <form action="contactSubmit.php" method="post">
+                            <input name="cname" class="ip" type="text" placeholder="NAME"> <br>
+                            <input name="cemail" class="ip" type="email" placeholder="E-Mail"> <br>
+                            <input name="cphone" class="ip" type="tel" placeholder="Phone"> <br>
+                            <input name="cmessage" class="ip" type="text" placeholder="Message"> <br>
+                            <button name="submitContact" type="submit" id="sendButton">SEND</button>
+                        </form>
+                    </div>
+                    
                     </div>
                 </div>
             </div>

@@ -18,7 +18,7 @@ $(function(){
        $(".slideshow1 ul").animate({marginLeft:-550},800,function(){
           $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
        })
-    }, 2000);
+    }, 3000);
  });
 
 
