@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>Lightbox Example</title>
+  <link rel="stylesheet" href="lightbox.min.css">
+
+  <style>
+      body{
+          padding: 0;
+      }
+
+      .Pimgs{
+          column-count: 3;
+          padding: 0;
+      }
+
+      .card{
+          height: auto;
+          width: 100%;
+          padding: 5px;
+      }
+
+      a{
+          padding: 0;
+      }
+
+      @media screen and (max-width: 768px){
+        .Pimgs{
+              -webkit-column-count: 2;
+              -moz-column-count: 2;
+              -moz-column-gap: 0px;
+              column-count: 2;
+              column-gap: 0px;
+      }
+
+      }
+      
+      @media screen and (max-width: 360px){
+          .Pimgs{
+              -webkit-column-count: 1;
+              -moz-column-count: 1;
+              -moz-column-gap: 0px;
+              column-count: 1;
+              column-gap: 0px;
+      }
+   
+}
+      
+      
+  </style>
+</head>
+<body>
+
+    <section class="Pimgs">
+        <div class="tz-gallery">
+                <a href="027.jpg" data-lightbox="gallery" >
+                    <img src="027.jpg" class="card">
+                </a>
+
+                <a href="0737.jpg" data-lightbox="gallery" >
+                    <img src="0737.jpg"  class="card">
+                </a>
+
+                <a href="0750.jpg" data-lightbox="gallery">
+                    <img src="0750.jpg"  class="card">
+                </a>
+
+                <a href="0759.jpg" data-lightbox="gallery">
+                    <img src="0759.jpg"  class="card">
+                </a>
+
+                <a  href="0783.jpg"data-lightbox="gallery">
+                    <img src="0783.jpg"  class="card">
+                </a>
+
+                <a  href="part2_2.jpg" data-lightbox="gallery">
+                    <img src="part2_2.jpg" class="card">
+                </a>
+
+                <a  href="0786.jpg" data-lightbox="gallery">
+                    <img src="0786.jpg"  class="card">
+                </a>
+
+                <a href="0811.jpg" data-lightbox="gallery">
+                    <img src="0811.jpg" class="card">
+                </a>
+
+                <a href="PreWedding_002.jpg" data-lightbox="gallery">
+                    <img src="PreWedding_002.jpg"  class="card">
+                </a>
+
+                <a href="PreWedding_004.jpg" data-lightbox="gallery">
+                    <img src="PreWedding_004.jpg" class="card">
+                </a>
+
+                <a  href="PreWedding_009.jpg" data-lightbox="gallery">
+                    <img src="PreWedding_009.jpg" class="card">
+                </a>
+
+                <a href="PreWedding_012.jpg"data-lightbox="gallery">
+                    <img src="PreWedding_012.jpg" class="card">
+                </a>
+                
+        </div>
+
+        
+    </section>
+  <script src="lightbox-plus-jquery.min.js"></script>
+
+</body>
+</html>
