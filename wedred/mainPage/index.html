@@ -282,7 +282,7 @@
             <div class="col-lg-6 padding-0">
                 <div class='contactUs'>
                     <!-- <div class="jumbotron contactHeading container">CONTACT</div> -->
-                    <div class="contactBoxAndHeading">
+                    <!-- <div class="contactBoxAndHeading">
                         <h2>GET IN TOUCH</h2>
                         <div class="contactBox">
                         <form action="contactSubmit.php" method="post">
@@ -294,7 +294,36 @@
                         </form>
                     </div>
                     
+                    </div> -->
+
+                    <div>
+                         <h2>FOR BOOKINGS</h2>
                     </div>
+                    
+                    <form action="contactSubmit.php" method="post">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h4 id="titleF" >NAME</h4><input name="cname" class="ip" type="text"> <br>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <h4 id="titleF" >EMAIL</h4> <input name="cemail" class="ip" type="email"> <br>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <h4 id="titleF" style="margin-left: 0px;" >MESSAGE</h4> 
+                        </div>
+                        <div class="row">
+                            <!-- <div class="col-lg-6">
+                                <h4 id="titleF" >PHONE</h4> <input name="cphone" class="ip" type="tel"> <br>
+                            </div> -->
+                            <input name="cmessage" class="ip messageText" type="text"> <br>
+                        </div>
+                        
+                        
+                        <button name="submitContact" type="submit" id="sendButton">SEND</button>
+                    </form>
                 </div>
             </div>
         </section>
