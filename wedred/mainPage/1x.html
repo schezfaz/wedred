@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <?php
+        include 'navbar.php';
+    ?>
+  <meta charset="utf-8">
+  <title>Lightbox Example</title>
+  <link rel="stylesheet" href="lightbox.min.css">
+  <link rel="stylesheet" href="home.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lightbox.min.css"> 
+  <style>
+      body{
+          padding: 0;
+      }
+
+      .Pimgs{
+          column-count: 3;
+          padding: 0;
+      }
+
+      .card{
+          height: auto;
+          width: 100%;
+          padding: 5px;
+      }
+
+      a{
+          padding: 0;
+      }
+
+      @media screen and (max-width: 768px){
+        .Pimgs{
+              -webkit-column-count: 2;
+              -moz-column-count: 2;
+              -moz-column-gap: 0px;
+              column-count: 2;
+              column-gap: 0px;
+      }
+
+      }
+      
+      @media screen and (max-width: 360px){
+          .Pimgs{
+              -webkit-column-count: 1;
+              -moz-column-count: 1;
+              -moz-column-gap: 0px;
+              column-count: 1;
+              column-gap: 0px;
+      }
+   
+}
+      
+      
+  </style>
+</head>
+<body>
+  <!-- <section class="screen1" style="margin-bottom: 35px;">
+            <div class="mainJ"> -->
+               <!--  <div class="wrapVid">
+                    <video preload="auto" autoplay muted loop id="myVideo">
+                        <source src="wedredVid.MOV" type="video/mp4"> 
+                    </video>
+                </div> -->
+                <!-- <div class="content">
+                    <img id="wedredLogo" src="wedred_logo.png"/>
+                </div>
+            </div>
+            <nav class="navigationBar" id="navigationBarr" data-spy="affix">
+                <ul> -->
+                <!--<li><a href="#">Home</a></li> -->
+                    <!-- <li><a href="#abt">About</a></li> -->
+                    <!-- <li><a href="#">Craft</a></li> -->
+                    <!-- <li><a href="#film">FilmServices</a></li> -->
+                    <!-- <li><a href="#tra">Travel</a></li> -->
+                    <!-- <li><a href="#">Team</a></li> -->
+                    <!-- <li><a href="#con">Contact</a></li> -->
+                <!-- </ul> -->
+            <!-- </nav> -->
+            <!-- <div data-spy="scroll" data-target="#navigationBarr" data-offset="0">
+                <h4 id="abt">About</h4>
+                <p>...</p>
+                <h4 id="film">Film</h4>
+                <p>...</p>
+                <h4 id="tra">Travel</h4>
+                <p>...</p>
+                 <h4 id="two">two</h4>
+                <p>...</p> 
+                <h4 id="con">Contact</h4>
+            </div> -->
+        <!-- </section> -->
+
+    <section class="Pimgs">
+        <div class="tz-gallery">
+                <a href="027.jpg" data-lightbox="gallery" >
+                    <img src="027.jpg" class="card">
+                </a>
+
+                <a href="0737.jpg" data-lightbox="gallery" >
+                    <img src="0737.jpg"  class="card">
+                </a>
+
+                <a href="0750.jpg" data-lightbox="gallery">
+                    <img src="0750.jpg"  class="card">
+                </a>
+
+                <a href="PreWedding_004.jpg" data-lightbox="gallery">
+                    <img src="PreWedding_004.jpg" class="card">
+                </a>
+
+                <a href="0737.jpg" data-lightbox="gallery" >
+                    <img src="0737.jpg"  class="card">
+                </a>
+
+                <a href="0759.jpg" data-lightbox="gallery">
+                    <img src="0759.jpg"  class="card">
+                </a>
+
+                <a href="0811.jpg" data-lightbox="gallery">
+                    <img src="0811.jpg" class="card">
+                </a>
+
+                <!-- <a  href="0783.jpg"data-lightbox="gallery">
+                    <img src="0783.jpg"  class="card">
+                </a> -->
+
+                <a  href="part2_2.jpg" data-lightbox="gallery">
+                    <img src="part2_2.jpg" class="card">
+                </a>
+
+                <a  href="0786.jpg" data-lightbox="gallery">
+                    <img src="0786.jpg"  class="card">
+                </a>
+
+                <a href="0737.jpg" data-lightbox="gallery" >
+                    <img src="0737.jpg"  class="card">
+                </a>
+
+                <a href="0811.jpg" data-lightbox="gallery">
+                    <img src="0811.jpg" class="card">
+                </a>
+
+                <a href="PreWedding_002.jpg" data-lightbox="gallery">
+                    <img src="PreWedding_002.jpg"  class="card">
+                </a>
+
+
+                <a  href="PreWedding_009.jpg" data-lightbox="gallery">
+                    <img src="PreWedding_009.jpg" class="card">
+                </a>
+
+                <a href="PreWedding_012.jpg"data-lightbox="gallery">
+                    <img src="PreWedding_012.jpg" class="card">
+                </a>
+
+                <a href="PreWedding_002.jpg" data-lightbox="gallery">
+                    <img src="PreWedding_002.jpg"  class="card">
+                </a>
+
+                <a href="PreWedding_004.jpg" data-lightbox="gallery">
+                    <img src="PreWedding_004.jpg" class="card">
+                </a>
+
+                <a  href="PreWedding_009.jpg" data-lightbox="gallery">
+                    <img src="PreWedding_009.jpg" class="card">
+                </a>
+
+                <a href="PreWedding_012.jpg"data-lightbox="gallery">
+                    <img src="PreWedding_012.jpg" class="card">
+                </a>
+
+                <a href="PreWedding_004.jpg" data-lightbox="gallery">
+                    <img src="PreWedding_004.jpg" class="card">
+                </a>
+                
+        </div>
+
+        
+    </section>
+  <script src="lightbox-plus-jquery.min.js"></script>
+
+</body>
+</html>
