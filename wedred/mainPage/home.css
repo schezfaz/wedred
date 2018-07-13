@@ -364,7 +364,6 @@ body,html{
     }
 
     .contactUs{
-        margin: 30px;
     }
     .contactBoxAndHeading{
         padding: 10px;
@@ -398,25 +397,29 @@ body,html{
     .contactBox:hover{
         background: rgba(231,212,121,0.1);
     }
+
+    #booking{
+        top: 0;
+    }
     .ip{
        /* width: 100%;
        margin-bottom: 10px; */
        border: 1px solid lightgray;
        text-align: center;
-       width: 300px;
+       width: 259px;
        margin-left: 0;
        border: 1px solid black;
+       padding:9px;
     }
 
     #titleF{
         padding: 0;
-        margin-left: 10px;
         text-align: left;
     }
 
     .messageText{
-        height: 100px;
-        width: 650px;
+        height: 200px;
+        width: 637px;
         margin-left: 0px;
     }
     
@@ -434,15 +437,17 @@ body,html{
         color: white;
         border: none;
         display: block;
-        width: 200px;
-        margin: 40px 10px;
+        width: 70px;
+        margin-top: 25px;
         text-align: center;
-
         box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-        height: 34px;
-        padding: 6px 12px;
+        height: 44px;
         font-size: 14px;
         line-height: 1.42857143;
+    }
+    #sendButton:hover{
+        transition: 0.5s;
+        background-color:rgba(0,0,0,0.8);
     }
     #mapLocation{
         width: 100%;
